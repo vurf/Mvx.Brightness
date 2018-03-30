@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Mvx.Brightness</id>
+        <version>1.0.2</version>
+        <authors>Ilia Varfolomeev</authors>
+        <projectUrl>https://github.com/vurf/Mvx.Brightness</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/vurf/Mvx.Brightness/master/Brightness/nuspec/Icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description> MvvmCross Plugin to manipulate device brightness </description>
+        <copyright />
+        <language />
+        <tags>mvvm mvvmcross xamarin monodroid mvx brightness display light dark</tags>
+        <dependencies>
+            <dependency id="MvvmCross.Platform" version="5.6.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../build/content/**" target="content" />
+        <file src="../build/lib/**" target="lib" />
+    </files>
+</package>

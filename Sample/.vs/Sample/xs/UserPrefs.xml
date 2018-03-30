@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{54D5C20B-3AB2-4EC3-B284-FE4CDF726302}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample" expanded="True" selected="True">
+            <Node name="Brightness" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BrightnessSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.dfcb22f2613cb60c70c1d6b91e2a5bfb0d84143f" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BrightnessSample.Droid PreferredExecutionTarget="Android.0123456789ABCDEF" />
+</Properties>

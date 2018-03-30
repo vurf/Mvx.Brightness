@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P1K-a1-cnB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="OtM-YK-DQo">
+            <objects>
+                <navigationController id="P1K-a1-cnB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CBc-rs-h6D">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DUH-1D-VOC" kind="relationship" relationship="rootViewController" id="fY0-G5-woH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcb-kw-hEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-322" y="6"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LRA-bY-zzm">
+            <objects>
+                <viewController id="DUH-1D-VOC" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fcc-KE-ZVv"/>
+                        <viewControllerLayoutGuide type="bottom" id="rOO-R8-AHK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SKb-JG-Vvs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTQ-fR-P4H">
+                                <rect key="frame" x="166.5" y="238.5" width="42" height="30"/>
+                                <state key="normal" title="Bright"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnG-fT-OcR">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Return"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SnG-fT-OcR" firstAttribute="top" secondItem="kTQ-fR-P4H" secondAttribute="bottom" constant="50" id="MUq-pu-5Rm"/>
+                            <constraint firstItem="kTQ-fR-P4H" firstAttribute="centerX" secondItem="SKb-JG-Vvs" secondAttribute="centerX" id="Pby-ot-bwo"/>
+                            <constraint firstItem="SnG-fT-OcR" firstAttribute="centerY" secondItem="SKb-JG-Vvs" secondAttribute="centerY" id="f8c-aD-TQy"/>
+                            <constraint firstItem="SnG-fT-OcR" firstAttribute="centerX" secondItem="SKb-JG-Vvs" secondAttribute="centerX" id="rsJ-NP-bhy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="a7p-jK-87b"/>
+                    <connections>
+                        <outlet property="Bright" destination="kTQ-fR-P4H" id="iCA-bD-iEe"/>
+                        <outlet property="ReturnBright" destination="SnG-fT-OcR" id="eAV-OX-a73"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ntg-Cx-hHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="6"/>
+        </scene>
+    </scenes>
+</document>

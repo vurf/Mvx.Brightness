@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightness.iOS", "Brightness.iOS\Brightness.iOS.csproj", "{80228F62-FBDA-4C26-A71B-D62E817E303B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightness.Droid", "Brightness.Droid\Brightness.Droid.csproj", "{FE638AC3-B9EA-4C04-B301-6BA937424BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightness", "Brightness\Brightness.csproj", "{B4DC43C6-2F06-4B1C-BE7D-79E5157684A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80228F62-FBDA-4C26-A71B-D62E817E303B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80228F62-FBDA-4C26-A71B-D62E817E303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80228F62-FBDA-4C26-A71B-D62E817E303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80228F62-FBDA-4C26-A71B-D62E817E303B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE638AC3-B9EA-4C04-B301-6BA937424BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE638AC3-B9EA-4C04-B301-6BA937424BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE638AC3-B9EA-4C04-B301-6BA937424BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE638AC3-B9EA-4C04-B301-6BA937424BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DC43C6-2F06-4B1C-BE7D-79E5157684A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DC43C6-2F06-4B1C-BE7D-79E5157684A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DC43C6-2F06-4B1C-BE7D-79E5157684A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DC43C6-2F06-4B1C-BE7D-79E5157684A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
